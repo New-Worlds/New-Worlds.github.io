@@ -1,0 +1,32 @@
+/*Gloabl styling; this will be used on most other pages*/
+@font-face{
+    font-family: nsmbu;
+    src: url('../font/nsmbu-font.ttf');
+}
+@font-face{
+    font-family: seurat-pro;
+    src: url('../font/seurat-pro.otf');
+}
+body{
+    background-color: #cd3434; /*just in case the image cannot be loaded*/
+    background-image: url('../img/backgroundCheckers.png'); /*just in case the animated GIF cannot be loaded*/
+    background-image: url('../img/backgroundCheckersAnim.gif');
+    background-size: 40px; /*the image and animation are both 16 pixels, this resizes it by 2.5x*/
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+div.titlebar{
+    width: 100%;
+    height: 81px;
+    /*text-align: center;*/
+    background-image: linear-gradient(#909090, #252525);
+    box-shadow: 0px 10px 5px #222222cc;
+}
+img.homeButtonSplasher{
+    width: 81px;
+    height: 81px;
+    position: relative;
+    left: 7px;
+    filter: drop-shadow(5px 5px 5px #222);
+}
